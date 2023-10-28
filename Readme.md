@@ -1,4 +1,4 @@
-wELCOME TO TEAM CRYPTORS
+WELCOME TO TEAM CRYPTORS
 EVERYONE
 Our team members are:
 1. Nachiket
