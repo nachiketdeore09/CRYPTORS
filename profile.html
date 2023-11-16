@@ -2,66 +2,143 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
 
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="profile.css">
 
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 
-<body style="background-color: #CDEFF0;">
+<body>
+    <div class="navbar-top ">
 
-    <nav class="d-flex navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid" style="background-color: #e3fdff;">
-            <a class="navbar-brand" href="#">Helpify</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left:40%; padding:0.5% ; color:black; ">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="color: black;">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"style="color: black;">About us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false"style="color: black;">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu" style="border-radius: 10px;">
-                            <li><a class="dropdown-item" href="#" style="color: black;">Agricultural</a></li>
-                            <li><a class="dropdown-item" href="#" style="color: black;">Care taker</a></li>
-                            <li><a class="dropdown-item" href="#" style="color: black;">SHGs</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+        <nav class="navbar">
+            <div class="logo">
             </div>
-        </div>
-    </nav>
-
-    <div class="d-flex">
-        <div class="photo" id="pic"></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+    <!-- Side_NavBar -->
+    <div class="sidenav">
+        <div class="profile">
+            <img src="https://imgs.search.brave.com/Q4caCGPtGiDYSfR6E0m5qyKx8mmEF6olNX3dqXLLjrY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWd2/My5mb3Rvci5jb20v/aW1hZ2VzL2Jsb2ct/cmljaHRleHQtaW1h/Z2UvMTAtcHJvZmls/ZS1waWN0dXJlLWlk/ZWFzLXRvLW1ha2Ut/eW91LXN0YW5kLW91/dC5qcGc"
+                alt="" width="100" height="100">
+
+            <div class="name">
+                Username
+            </div>
+            <div class="job">
+                Worker
+            </div>
+        </div>
+
+        <div class="sidenav-url">
+            <div class="url">
+                <a href="#">My Ratings</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#">Documents</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#">Work</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#">Edit Profile</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#">Log-out</a>
+                <hr align="center">
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <h2>Personal Details</h2>
+        <div class="card">
+            <div class="card-body">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td>Username</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td>username@helpify.com</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>:</td>
+                            <td>India</td>
+                        </tr>
+                        <tr>
+                            <td>Work</td>
+                            <td>:</td>
+                            <td>Caretaker for kids, Lending agricultural utilities</td>
+                        </tr>
+                        <tr>
+                            <td>Experience</td>
+                            <td>:</td>
+                            <td>Any relatable experience</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
 
+        <div class="social ">
+            <h2>SOCIAL MEDIA</h2>
+            <div class="card-body">
+                <!-- <i class="fa fa-pen fa-xs edit"></i> -->
+                <div class="social-media">
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fab fa-invision fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fab fa-snapchat fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
 </body>
 
 </html>
