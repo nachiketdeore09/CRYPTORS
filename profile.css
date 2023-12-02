@@ -20,8 +20,12 @@
   font-size: 16px;
 }
 
+.links{
+  align-self: center;
+}
+
 .navbar a:hover {
-  color: #ccc;
+  color: #0048bc;
 }
 
 .nav-links {
@@ -41,11 +45,11 @@
 }
 
 body {
-  background: rgb(111, 174, 231);
+  background: rgb(204, 230, 255);
   background: radial-gradient(
     circle,
-    rgba(111, 174, 231, 1) 0%,
-    rgba(70, 179, 255, 1) 49%,
+    rgb(163, 211, 255) 0%,
+    rgb(168, 219, 255) 49%,
     rgba(209, 247, 253, 1) 100%
   );
   font-family: Arial;
@@ -66,7 +70,7 @@ body {
   color: rgb(2, 22, 103);
   border-bottom: 1px solid rgb(41, 40, 40);
   height: 60px;
-}
+  }
 
 .title {
   font-family: sans-serif;
